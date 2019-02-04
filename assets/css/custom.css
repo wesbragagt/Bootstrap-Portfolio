@@ -1,0 +1,33 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: url(../images/brickwall_@2X.png);
+}
+
+
+
+img {
+    width: auto;
+    height: 300px;
+}
+
+.background-custom {
+    background: rgb(220,84,87)!important;
+}
+
+.jumbotron {
+    padding-bottom: 95px;
+}
+
+.project1 {
+    background-size: cover;
+    background-position: center;
+    
+}
+
+img {
+    width: 30%;
+    height: auto;
+}
