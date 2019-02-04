@@ -6,7 +6,9 @@ body {
     background: url(../images/brickwall_@2X.png);
 }
 
-
+.cool-head {
+    font-family: 'Major Mono Display', monospace!important;
+}
 
 img {
     width: auto;

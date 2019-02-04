@@ -12,6 +12,8 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
+    <!-- google fonts mono display -->
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
 
     <!-- CSS custom style -->
     <link rel="stylesheet" href="assets/css/custom.css" />
@@ -19,11 +21,11 @@
   <body>
     <!-- navbar -->
     <nav class="navbar sticky-top navbar-expand-sm navbar-light navbar-static-top shadow mb-2 p-1 rounded border border-dark background-custom">
-        <a class="navbar-brand mr-auto ml-2" href="#">wes braga</a>
+        <a class="navbar-brand mr-auto ml-2 cool-head" href="#">wes braga</a>
         <button class="navbar-toggler d-lg-none p-2 btn btn-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
             aria-expanded="false" aria-label="Toggle navigation"></button>
         <div class="collapse navbar-collapse" id="collapsibleNavId">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
                 </li>
@@ -38,11 +40,12 @@
             
         </div>
     </nav>
-
+    <!-- Carousel -->
+    
     <!-- jumbotron -->
     <div class="container ">
       <div class="row">
-        .<div class="jumbotron col-md-12 border border-dark mb-1 shadow-lg background-custom">
+        <div class="jumbotron col-md-12 border border-dark mb-1 shadow-lg background-custom">
           <div class="row head-1">
             <h1 class="mr-auto ml-3 display-5 text-dark">Web Developer</h1>
           </div>
@@ -63,10 +66,13 @@
     </div>
     
     <div class="container mb-1">
+      <div id="projects"></div>
       <div class="row">
-        .<div class="jumbotron col-md-12 border border-dark mb-1 shadow-lg background-custom">
+        <div class="jumbotron col-md-12 border border-dark mb-1 shadow-lg background-custom">
+          
           <div class="row header">
-            <h1 id="projects" class="mr-auto ml-3 display-5">Projects</h1>
+            
+            <h1  class="mr-auto ml-3 display-5">Projects</h1>
           </div>
           
             <!-- project1 -->
@@ -76,29 +82,29 @@
                   <div class="mt-4 card" style="width: 18rem;">
                     <img  class="card-img-top img-responsive" src="assets/images/ipad-game.jpeg" alt="Card image cap">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
+                      <h5 class="card-title">RPG Game</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-dark">Go somewhere</a>
+                      <a href="#" class="btn btn-dark">More</a>
                     </div>
                   </div>
                 
               
               <!-- project2 -->
               <div class="mt-4 card" style="width: 18rem;">
-                <img class="card-img-top img-responsive" src="assets/images/ipad-game.jpeg" alt="Card image cap">
+                <img class="card-img-top img-responsive" src="assets/images/chrome-extension.jpeg" alt="Card image cap">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Chrome Extension</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-dark">Go somewhere</a>
+                  <a href="#" class="btn btn-dark">More</a>
                 </div>
               </div>
               <!-- project3 -->
               <div class="mt-5 card" style="width: 18rem;">
-                <img class="card-img-top img-responsive" src="assets/images/ipad-game.jpeg" alt="Card image cap">
+                <img class="card-img-top img-responsive" src="assets/images/ui:ux.jpeg" alt="Card image cap">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">iRemember</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-dark">Go somewhere</a>
+                  <a href="#" class="btn btn-dark">More</a>
                 </div>
               </div>
                 </div>
@@ -112,12 +118,13 @@
     
     <!-- contact -->
     <div class="container">
+      <div id="contact"></div>
       <div class="row">
         
         <div class="jumbotron col-md-12  border border-dark mb-1 shadow-lg background-custom">
 
           <div class="row">
-            <h1 id="contact" class="display-5">Contact</h1>
+            <h1 class="display-5">Contact</h1>
           </div>
 
           <form class="mt-5">
